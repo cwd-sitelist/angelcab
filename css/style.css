@@ -1,3 +1,5 @@
+@import url('https://cdnfonts.com');
+
 .site-header .header_wrapper>.wrapper .header_right .header-book {
     align-items: center;
     aspect-ratio: 1;
@@ -21,6 +23,7 @@
 
 p {
     font-size: 18px !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 @media (max-width: 420px) {
@@ -303,7 +306,7 @@ p {
 
 @media (max-width: 600px) {
     .ac-testimonials {
-        padding: 30px 22px;
+        padding: 40px 22px;
     }
 
     .ac-testimonials-inner {
@@ -316,7 +319,7 @@ p {
     }
 
     .ac-testimonial-content h2 {
-        font-size: 36px;
+        font-size: 34px;
         letter-spacing: 0px;
         margin-bottom: 25px;
     }
@@ -459,13 +462,14 @@ p {
 }
 
 .ac-service-info h3 {
+    color: #e79803;
     font-size: 25px;
     font-weight: 400;
     margin: 0 0 12px;
 }
 
 .ac-service-info p {
-    color: #e79803;
+    color: #ffffff;
     font-size: 14px;
     line-height: 1.8;
     margin: 0;
@@ -543,7 +547,7 @@ p {
     }
 
     .info .title div {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .ac-testimonial-label {
@@ -561,9 +565,13 @@ p {
     }
 }
 
+#home_about .home_about_wrapper .info {
+    text-align: justify;
+}
+
 @media (max-width: 768px) {
     #home_about .home_about_wrapper .info {
-        padding-block: 1px !important;
+        padding-block: 25px !important;
         padding-inline: 3.5%;
     }
 
@@ -581,7 +589,7 @@ p {
 }
 
 footer .footer_wrapper .footer-content-wrapper {
-    padding-block: 55px !important;
+    padding-block: 35px !important;
 }
 
 @media (min-width: 992px) {
@@ -607,7 +615,7 @@ footer .footer_wrapper .footer-content-wrapper {
     #home_featured .featured_background .title h1 {
         font-size: 80px !important;
     }
-}'Roboto', Helvetica, Arial, sans-serif;
+}
 
 #home_about .home_about_wrapper .info .text p {
     text-align: justify ;
@@ -1031,7 +1039,7 @@ footer .footer_wrapper .footer-content-wrapper .footer_left .footer-social-wrapp
 
 @media (max-width: 1300px) {
     #home_featured .featured_background .btn-wrapper {
-        bottom: 80px !important;
+        bottom: 240px !important;
     }
 }
 
@@ -1205,7 +1213,7 @@ footer .footer_wrapper .footer-content-wrapper .footer_left .footer-social-wrapp
 }
 
 footer * {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-family: 'Helvetica Neue 55', 'Helvetica Neue', Helvetica, sans-serif !important;
 }
 
 .menu-right-bottom,
@@ -1215,4 +1223,20 @@ footer * {
 
 .featured_background .btn-wrapper button {
     font-family: 'Roboto', sans-serif !important;
+}
+
+@media (max-width: 480px) {
+    .footer-nav-wrapper {
+        display: none !important;
+    }
+
+    .site-header .header_wrapper > .wrapper .header_right .menu_button_wrapper #hamburger .line {
+        width: 45px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-right-bottom {
+        padding: 115px 0 !important;
+    }
 }
